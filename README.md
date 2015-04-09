@@ -35,11 +35,11 @@ There are other things that will be done, but that is for a later time.
 - git log --pretty="%h - %s" --graph
 
 ##Branching
-Make a new branch:
+1. Make a new branch:
 - git checkout -b new_branch_name source_branch_name
-Then pull code down:
+2. Then pull code down:
 - git pull [HTTPS URL of source to clone]
-Git will merge files, flag any conflicts, and rely on you to resolve them
+3. Git will merge files, flag any conflicts, and rely on you to resolve them
 
 ##Conflicts
 - <<<<<<< HEAD
