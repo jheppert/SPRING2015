@@ -47,3 +47,17 @@ There are other things that will be done, but that is for a later time.
 - =======
 - Their code
 - >>>>>>> 01a090e97f3f630ce6dc24ca05009c235dcd4aba
+
+##Merging
+- must have commits on both branches
+- must be on the branch you want to stay on (i.e. master)
+- git merge [branch name]
+- git status
+- git commit -m "merged with blah blah branch"
+
+##Deleting a branch
+- don't be on the branch you want to delete
+- If you have already merged the branch:
+-- git branch -d [delete branch name]
+- If you have not merged the branch:
+-- git branch -D [delete branch name]
