@@ -24,3 +24,26 @@ There are other things that will be done, but that is for a later time.
 
 ###Shorthand push command
 - git push
+
+##Git Status Commands
+- git status
+- git log
+
+###git log options
+- git log --graph
+- git log --pretty="%h - %s"
+- git log --pretty="%h - %s" --graph
+
+##Branching
+Make a new branch:
+- git checkout -b new_branch_name source_branch_name
+Then pull code down:
+- git pull [HTTPS URL of source to clone]
+Git will merge files, flag any conflicts, and rely on you to resolve them
+
+##Conflicts
+- <<<<<<< HEAD
+- Your code
+- =======
+- Their code
+- >>>>>>> 01a090e97f3f630ce6dc24ca05009c235dcd4aba
