@@ -36,10 +36,10 @@ There are other things that will be done, but that is for a later time.
 
 ##Branching
 1. Make a new branch:
-- git checkout -b new_branch_name source_branch_name
-2. Then pull code down:
-- git pull [HTTPS URL of source to clone]
-3. Git will merge files, flag any conflicts, and rely on you to resolve them
+2. git checkout -b new_branch_name source_branch_name
+3. Then pull code down:
+4. git pull [HTTPS URL of source to clone]
+5. Git will merge files, flag any conflicts, and rely on you to resolve them
 
 ##Conflicts
 - <<<<<<< HEAD
